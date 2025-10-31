@@ -27,7 +27,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "../../../components/ui/dialog";
-import type { listItemsType } from "../types/user";
+import type { listItemsType } from "../types/items";
 const formSchema = z.object({
   title: z.string().min(2, { message: "Title must be at least 2 characters." }),
   subTitle: z

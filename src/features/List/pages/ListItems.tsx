@@ -6,10 +6,10 @@ import { Button } from "../../../components/ui/button";
 import UserAlertDialog from "../components/AlertDialog";
 import UserTable from "../components/BaseTable";
 import { DialogForm } from "../components/DialogForm";
-import type { listItemsType } from "../types/user";
 import { toast } from "sonner";
+import type { listItemsType } from "../types/items";
 
-export default function Users() {
+export default function ListItems() {
   const [items, setItems] = useState<listItemsType[]>([]);
   const [editItem, setEditItem] = useState<listItemsType | null>(null);
   const navigate = useNavigate();

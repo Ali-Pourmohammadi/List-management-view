@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./features/users/pages/Home";
-import UserListPage from "./features/users/pages/ListItems";
 import { Toaster } from "sonner";
+import Home from "./features/List/pages/Home";
+import ListItems from "./features/List/pages/ListItems";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/user" element={<UserListPage />} />
+        <Route path="/user" element={<ListItems />} />
       </Routes>
     </BrowserRouter>
   );

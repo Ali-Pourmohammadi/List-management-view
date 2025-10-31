@@ -24,8 +24,8 @@ import {
   useReactTable,
 } from "@tanstack/react-table";
 import { ChevronDown, Search } from "lucide-react";
-import type { listItemsType } from "../types/user";
 import { getColumns } from "./Columns";
+import type { listItemsType } from "../types/items";
 
 interface UserTableProps {
   data: listItemsType[];

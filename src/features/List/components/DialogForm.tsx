@@ -25,8 +25,8 @@ import {
   DialogTrigger,
   DialogClose,
 } from "../../../components/ui/dialog";
-import type { listItemsType } from "../types/user";
 import { toast } from "sonner";
+import type { listItemsType } from "../types/items";
 
 type FormData = {
   title: string;

@@ -9,7 +9,7 @@ import {
 } from "../../../components/ui/dropdown-menu";
 import { DropdownMenuItem } from "@radix-ui/react-dropdown-menu";
 import { MoreVertical, Pencil, Trash2 } from "lucide-react";
-import type { listItemsType } from "../types/user";
+import type { listItemsType } from "../types/items";
 
 export function getColumns(
   handleEdit: (item: listItemsType) => void,
@@ -89,5 +89,3 @@ export function getColumns(
     },
   ];
 }
-
-
